@@ -47,10 +47,10 @@ Walk-in interview platform that alerts nearby candidates about hiring drives in 
 <tr>
 <td width="50%" valign="top">
 
-#### Delivery System Database
-Normalized (3NF) relational model of 8 tables covering orders, payments and delivery tracking for 50,000+ records. 15+ SQL queries using joins, CTEs, window functions, stored procedures and views, with 6 KPIs reported in Power BI.
+#### [Delivery System Database](https://github.com/SanchitSlayer/delivery-system-database)
+Normalized (3NF) SQL Server database of 8 tables for a food and grocery delivery platform, loaded with about 164,000 realistic rows from a Python generator. 20 analysis queries using joins, CTEs and window functions, 9 views, 4 stored procedures, and indexes benchmarked at 45-99% fewer logical reads. One command builds it all and exports 6 KPIs for a Power BI dashboard.
 
-`SQL Server` `SSMS` `Power BI`
+`SQL Server` `T-SQL` `Python` `Docker` `Power BI`
 
 </td>
 <td width="50%" valign="top">
