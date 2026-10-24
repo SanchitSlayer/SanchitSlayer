@@ -10,6 +10,9 @@
   <a href="mailto:sanchitgarg343@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://sanchit-portfolio-blue.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
 </p>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=SanchitSlayer&label=Profile%20views&color=0A66C2&style=flat-square" alt="Profile views">
+</p>
 
 ---
 
