@@ -1,9 +1,7 @@
-<h1 align="center">Sanchit Garg</h1>
-
-<p align="center">
-  <b>AI Engineering &nbsp;|&nbsp; Product Management &nbsp;|&nbsp; Product Analytics &nbsp;|&nbsp; Consulting</b><br>
-  B.S. Chemistry with Specialisation in Entrepreneurship, IIT Jodhpur (2023 - 2027)
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img src="assets/banner-light.svg" width="100%" alt="Sanchit Garg: AI Engineering, Product Management, Product Analytics, Consulting">
+</picture>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/sanchit-garg-791921286"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
@@ -21,12 +19,25 @@
 I work where AI, product and business meet: scoping a problem with stakeholders, building the solution, and explaining the results to the people who decide.
 
 - **Product Management Intern at OneMetric** (May - Jul 2026): built an OCR and image-recognition eKYC tool that cut onboarding delays by 70%, and owned an AI/ML intent analyzer for B2B sales that cut lead qualification time by 60%. Two solutions reached production.
-- **Currently building** AI agents and automating workflows end to end, from requirements to deployed tools.
+- **Currently building** AI agents and automating workflows end to end, from requirements to deployed tools. Latest: [PolicyPilot](https://github.com/SanchitSlayer/policypilot), a compliance copilot with cited RAG answers and a tool-calling review agent.
 - **Leadership:** Overall Coordinator of the Placement Cell at IIT Jodhpur, and former Overall Coordinator of The Product Club.
 
 ---
 
 ### Featured projects
+
+<table>
+<tr>
+<td valign="top">
+
+#### [PolicyPilot](https://github.com/SanchitSlayer/policypilot) &nbsp; <sub>Flagship AI project</sub>
+An AI compliance copilot for compliance, operations and legal teams. It answers questions from policy PDFs **only from the uploaded text, with page-level citations**, and says so when the documents don't cover a question. A **tool-calling contract review agent** checks a contract clause by clause against those policies and produces an auditable checklist, with guardrails that reject citations to passages it never retrieved. Switch between OpenAI, Claude and Gemini per request; every LLM call is logged for tokens, latency and cost on an admin dashboard. Ships with a 47-question retrieval evaluation and CI for backend and frontend.
+
+`RAG` `AI Agents` `Tool Calling` `FastAPI` `PostgreSQL + pgvector` `MongoDB` `Next.js 15` `Docker`
+
+</td>
+</tr>
+</table>
 
 <table>
 <tr>
@@ -81,8 +92,9 @@ Asynchronous data pipeline over the Reddit API combined with 10,000+ tweets. VAD
 
 **AI/ML and Analytics**<br>
 <img src="https://img.shields.io/badge/LLMs-412991?style=flat-square" alt="LLMs">
+<img src="https://img.shields.io/badge/OpenAI_|_Claude_|_Gemini_APIs-412991?style=flat-square" alt="OpenAI, Claude and Gemini APIs">
 <img src="https://img.shields.io/badge/RAG-412991?style=flat-square" alt="RAG">
-<img src="https://img.shields.io/badge/Agentic_AI-412991?style=flat-square" alt="Agentic AI">
+<img src="https://img.shields.io/badge/Agentic_AI_and_Tool_Calling-412991?style=flat-square" alt="Agentic AI and Tool Calling">
 <img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=flat-square" alt="Machine Learning">
 <img src="https://img.shields.io/badge/NLP-FF6F00?style=flat-square" alt="NLP">
 <img src="https://img.shields.io/badge/OCR_and_Image_Recognition-FF6F00?style=flat-square" alt="OCR and Image Recognition">
@@ -90,7 +102,10 @@ Asynchronous data pipeline over the Reddit API combined with 10,000+ tweets. VAD
 
 **Backend and Data**<br>
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+<img src="https://img.shields.io/badge/PostgreSQL_+_pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL and pgvector">
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB">
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
 <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="SQL Server">
 <img src="https://img.shields.io/badge/REST_APIs-555555?style=flat-square" alt="REST APIs">
 <img src="https://img.shields.io/badge/Data_Modeling-555555?style=flat-square" alt="Data Modeling">
@@ -140,10 +155,12 @@ Asynchronous data pipeline over the Reddit API combined with 10,000+ tweets. VAD
 
 ### GitHub activity
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=SanchitSlayer&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=transparent&title_color=0A66C2&icon_color=0A66C2" alt="GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SanchitSlayer&layout=compact&hide_border=true&theme=transparent&title_color=0A66C2" alt="Top languages">
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=SanchitSlayer&hide_border=true&theme=transparent&ring=0A66C2&fire=0A66C2&currStreakLabel=0A66C2" alt="GitHub streak">
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SanchitSlayer/SanchitSlayer/output/stats-dark.svg">
+  <img src="https://raw.githubusercontent.com/SanchitSlayer/SanchitSlayer/output/stats-light.svg" width="100%" alt="GitHub stats: contributions, streaks and top languages">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SanchitSlayer/SanchitSlayer/output/snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/SanchitSlayer/SanchitSlayer/output/snake-light.svg" width="100%" alt="Contribution graph being eaten by a snake">
+</picture>
