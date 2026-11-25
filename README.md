@@ -61,18 +61,18 @@ Walk-in interview platform that alerts nearby candidates about hiring drives in 
 <tr>
 <td width="50%" valign="top">
 
-#### [Delivery System Database](https://github.com/SanchitSlayer/delivery-system-database)
-Normalized (3NF) SQL Server database of 8 tables for a food and grocery delivery platform, loaded with about 164,000 realistic rows from a Python generator. 20 analysis queries using joins, CTEs and window functions, 9 views, 4 stored procedures, and indexes benchmarked at 45-99% fewer logical reads. One command builds it all and exports 6 KPIs for a Power BI dashboard.
+#### [Olist Delivery Analytics](https://github.com/SanchitSlayer/olist-delivery-analytics)
+End-to-end analytics on 99,441 real orders from Olist, a Brazilian marketplace. A dbt + DuckDB warehouse of 17 models and 71 data tests shows late orders are 6.8% of deliveries but drive 32.5% of all 1-2 star reviews. A late-risk model flags orders at purchase (the riskiest 10% catch 38.4% of late orders, 3.8x random), Gemini classifies complaint themes, and a Streamlit dashboard brings it together.
 
-`SQL Server` `T-SQL` `Python` `Docker` `Power BI`
+`SQL` `dbt` `DuckDB` `Python` `scikit-learn` `Gemini` `Streamlit`
 
 </td>
 <td width="50%" valign="top">
 
-#### Cryptocurrency Market Sentiment Analysis
-Asynchronous data pipeline over the Reddit API combined with 10,000+ tweets. VADER sentiment scoring classifies posts into 3 classes, and daily sentiment is correlated with Bitcoin returns.
+#### [Delivery System Database](https://github.com/SanchitSlayer/delivery-system-database)
+Normalized (3NF) SQL Server database of 8 tables for a food and grocery delivery platform, loaded with about 164,000 realistic rows from a Python generator. 20 analysis queries using joins, CTEs and window functions, 9 views, 4 stored procedures, and indexes benchmarked at 45-99% fewer logical reads. One command builds it all and exports 6 KPIs for a Power BI dashboard.
 
-`Python` `Asyncio` `REST APIs` `NLTK`
+`SQL Server` `T-SQL` `Python` `Docker` `Power BI`
 
 </td>
 </tr>
@@ -99,6 +99,7 @@ Asynchronous data pipeline over the Reddit API combined with 10,000+ tweets. VAD
 <img src="https://img.shields.io/badge/NLP-FF6F00?style=flat-square" alt="NLP">
 <img src="https://img.shields.io/badge/OCR_and_Image_Recognition-FF6F00?style=flat-square" alt="OCR and Image Recognition">
 <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" alt="Power BI">
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit">
 
 **Backend and Data**<br>
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
@@ -108,6 +109,8 @@ Asynchronous data pipeline over the Reddit API combined with 10,000+ tweets. VAD
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
 <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="SQL Server">
 <img src="https://img.shields.io/badge/REST_APIs-555555?style=flat-square" alt="REST APIs">
+<img src="https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white" alt="dbt">
+<img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black" alt="DuckDB">
 <img src="https://img.shields.io/badge/Data_Modeling-555555?style=flat-square" alt="Data Modeling">
 <img src="https://img.shields.io/badge/Data_Pipelines-555555?style=flat-square" alt="Data Pipelines">
 
